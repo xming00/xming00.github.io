@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: #050816;
+  background: linear-gradient(135deg, #050816, 0%, #0B1020 100%);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #1F2933;
+  margin-bottom: 20px;
+  background: #0B1020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 60px;
+}
+
+h1 {
+  color: #E5E7EB;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  color: #9CA3AF;
+  font-size: 1.2em;
+}
+
+.section {
+  background: #0B1020;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 30px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: 1px solid #1F2933;
+}
+
+h2 {
+  color: #E5E7EB;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #1F2933;
+}
+
+p {
+  color: #E5E7EB;
+  margin-bottom: 15px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  background: #1D4ED8;
+  color: #E5E7EB;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9em;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.links a {
+  color: #1D4ED8;
+  text-decoration: none;
+  padding: 12px 24px;
+  border: 2px solid #1F2933;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.links :hover {
+  background: #3B82F6;
+  color: #E5E7EB;
+}
+
+.project {
+  background: #1D4ED8;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.project h3 {
+  color: #E5E7EB;
+  margin-bottom: 10px;
+}
+.project p {
+  margin-bottom: 0;
+  font-size: 0.95em;
+}
+
+footer {
+  text-align: center;
+  color: #E5E7EB;
+  margin-top: 60px;
+  padding-top: 30px;
+  border-top: 1px solid #1F2933;
+}/*# sourceMappingURL=style.css.map */

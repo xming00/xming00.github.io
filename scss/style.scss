@@ -1,0 +1,135 @@
+@use 'colors.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: colors.$body;
+    background: linear-gradient(135deg, colors.$body, 0%, colors.$card 100%);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid colors.$line;
+    margin-bottom: 20px;
+    background: colors.$card;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+}
+
+h1 {
+    color: colors.$primary-text;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    color: colors.$second-text;
+    font-size: 1.2em;
+}
+
+.section {
+    background: colors.$card;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 30px;
+    backdrop-filter: blur(10px);
+    border: 1px solid colors.$line;
+}
+
+h2 {
+    color: colors.$primary-text;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid colors.$line;
+}
+
+p {
+    color: colors.$primary-text;
+    margin-bottom: 15px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tag {
+    background: colors.$accent;
+    color: colors.$primary-text;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+
+    a {
+    color: colors.$accent;
+    text-decoration: none;
+    padding: 12px 24px;
+    border: 2px solid colors.$line;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+
+        
+    }   
+    :hover {
+        background: colors.$primary;
+        color: colors.$primary-text;
+    }    
+}
+
+
+.project {
+    background: colors.$accent;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+
+    h3 {
+        color: colors.$primary-text;
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin-bottom: 0;
+        font-size: 0.95em;
+    }
+}
+
+footer {
+    text-align: center;
+    color: colors.$primary-text;
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid colors.$line;
+}
