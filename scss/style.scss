@@ -35,7 +35,7 @@ body {
     z-index: 100;
     padding: 18px 40px;
     transition: background 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
-
+    // [ ]scolled 是什麼意思?
     &.scrolled {
         background: rgba(5, 8, 22, 0.92);
         backdrop-filter: blur(12px);
